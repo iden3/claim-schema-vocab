@@ -1,0 +1,60 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "indexOrder": {
+          "@id": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#indexOrder",
+          "@container": "@list"
+      },
+      "valueOrder: {
+          "@id": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#valueOrder",
+          "@container": "@list"
+      },
+      "Index": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#Index",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          },
+          "position": {
+            "@id": "serialization-vocab:position"
+          }
+        }
+      },
+      "Value": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#Value",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          },
+          "position": {
+            "@id": "serialization-vocab:position"
+          }
+        }
+      }
+    }
+  ]
+}
