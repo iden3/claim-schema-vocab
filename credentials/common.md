@@ -93,3 +93,10 @@ defines value type
 ```
  "serialization": Index
 ```
+
+# credentialStatus
+
+property for the discovery of information about the current status of a iden3 credential, such as whether it is suspended or revoked.
+
+id - property is an URI to get revocation information
+type - property, which expresses the credential status type, now it's `SparseMetkleTreeProof`
