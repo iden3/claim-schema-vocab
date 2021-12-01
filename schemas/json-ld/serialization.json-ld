@@ -9,7 +9,7 @@
           "@id": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#indexOrder",
           "@container": "@list"
       },
-      "valueOrder: {
+      "valueOrder": {
           "@id": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#valueOrder",
           "@container": "@list"
       },
@@ -54,7 +54,80 @@
             "@id": "serialization-vocab:position"
           }
         }
+      },
+      "IndexDataSlotA": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#IndexDataSlotA",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          }
+        }
+      },
+      "IndexDataSlotB": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#IndexDataSlotB",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          }
+        }
+      },
+      "ValueDataSlotA": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#ValueDataSlotA",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          }
+        }
+      },
+      "ValueDataSlotB": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/serialization.json-ld#ValueDataSlotB",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "baseType": {
+            "@id": "serialization-vocab:baseType",
+            "@type": "xsd:string"
+          },
+          "data": {
+            "@id": "serialization-vocab:data"
+          }
+        }
       }
+
     }
   ]
 }

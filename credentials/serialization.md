@@ -1,3 +1,25 @@
+# Index
+represents index type
+
+# Value
+represents value type
+
+# IndexDataSlotA
+represents specific position for data in claim (index slot A)
+
+# ValueDataSlotA
+represents specific position for data in claim (value slot A)
+
+# IndexDataSlotB
+represents specific position for data in claim (index slot B)
+
+# ValueDataSlotB
+represents specific position for data in claim (value slot B)
+
+# serialization
+
+defines value type
+
 # baseType
 
 type of data that was serialized
