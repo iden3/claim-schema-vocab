@@ -7,6 +7,14 @@ age represents person age as integer value
   "age": 18
 ```
 
+# birthday
+
+birthday represents person birthday as integer value
+
+```
+  "birthday": 6
+```
+
 # birthDate
 
 birthDate represents person age as integer value

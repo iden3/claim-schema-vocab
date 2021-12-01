@@ -12,7 +12,7 @@
         "id": "@id",
         "type": "@type",
         "auth-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/auth.md#",
-        "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "x": {
           "@id": "auth-vocab:x",
           "@type": "serialization:Index"

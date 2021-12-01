@@ -13,7 +13,7 @@
           "id": "@id",
           "type": "@type",
           "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
-          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
           "birthdayYear": {
             "@id": "kyc-vocab:birthdayYear",
             "@type": "serialization:Index"
@@ -40,7 +40,7 @@
           "id": "@id",
           "type": "@type",
           "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
-          "serialization-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
           "countryCode": {
             "@id": "kyc-vocab:countryCode",
             "@type": "serialization:Index"
