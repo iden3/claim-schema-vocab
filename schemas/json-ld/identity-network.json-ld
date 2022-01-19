@@ -11,14 +11,14 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "auth-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/genesis.md#",
+        "genesis-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/genesis.md#",
         "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "blockchain": {
-          "@id": "auth-vocab:networkID",
+          "@id": "genesis-vocab:networkID",
           "@type": "serialization:IndexDataSlotA"
         },
         "networkID": {
-          "@id": "auth-vocab:networkID",
+          "@id": "genesis-vocab:networkID",
           "@type": "serialization:IndexDataSlotB"
         }
       }
