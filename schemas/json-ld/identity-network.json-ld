@@ -14,7 +14,7 @@
         "genesis-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/genesis.md#",
         "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "blockchain": {
-          "@id": "genesis-vocab:networkID",
+          "@id": "genesis-vocab:blockchain",
           "@type": "serialization:IndexDataSlotA"
         },
         "networkID": {
