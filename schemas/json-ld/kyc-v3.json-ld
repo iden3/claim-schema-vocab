@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "KYCAgeCredential": {
-        "@id": "#KYCAgeCredential",
+        "@id": "@base:KYCAgeCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -25,7 +25,7 @@
         }
       },
       "KYCCountryOfResidenceCredential": {
-        "@id": "#KYCCountryOfResidenceCredential",
+        "@id": "@base:KYCCountryOfResidenceCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
