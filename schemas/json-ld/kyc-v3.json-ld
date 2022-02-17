@@ -1,0 +1,48 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "KYCAgeCredential": {
+        "@id": "#KYCAgeCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "birthday": {
+            "@id": "kyc-vocab:birthday",
+            "@type": "serialization:IndexDataSlotA"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "serialization:IndexDataSlotB"
+          }
+        }
+      },
+      "KYCCountryOfResidenceCredential": {
+        "@id": "#KYCCountryOfResidenceCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "countryCode": {
+            "@id": "kyc-vocab:countryCode",
+            "@type": "serialization:IndexDataSlotA"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "serialization:IndexDataSlotB"
+          }
+        }
+      }
+    }
+  ]
+}
