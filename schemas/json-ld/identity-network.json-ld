@@ -1,0 +1,27 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Iden3IdentityNetwork": {
+      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/genesis-network.json-ld#Iden3IdentityNetwork",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "genesis-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/genesis.md#",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "blockchain": {
+          "@id": "genesis-vocab:blockchain",
+          "@type": "serialization:IndexDataSlotA"
+        },
+        "networkID": {
+          "@id": "genesis-vocab:networkID",
+          "@type": "serialization:IndexDataSlotB"
+        }
+      }
+    }
+  }]
+}
