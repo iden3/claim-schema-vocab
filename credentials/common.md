@@ -42,6 +42,16 @@ Credential subject example
 "type": "KYCAgeCredential"
 },
 ```
+
+# subjectPosition
+The value shows where save subject in index or value. The place of the subject indicates the uniqueness of the record in the sparse merkle tree. This field is optional, by default set to the "index" value.<br>
+`index` - unique for tree.<br>
+`value` - NOT unique for tree.
+
+```
+    "subjectPosition": "value"
+```
+
 # credentialSchema
 The value of the credentialSchema property MUST be one or more data schemas that provide verifiers with enough information to determine if the provided data conforms to the provided schema. 
 Each credentialSchema MUST specify its type (for example, JsonSchemaValidator2018), and an id property that MUST be a URI identifying the schema file. The precise contents of each data schema is determined by the specific type definition.
