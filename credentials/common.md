@@ -44,9 +44,9 @@ Credential subject example
 ```
 
 # subjectPosition
-The value shows where save subject in index or value. The place of the subject indicates the uniqueness of the record in the sparse merkle tree. This field is optional, by default set to the "index" value.<br>
-`index` - unique for tree.<br>
-`value` - NOT unique for tree.
+The value shows where to save the subject in the index or value.<br>
+`index` - indicates that subject's position in the index of a claim;<br>
+`value` - indicates that the subject position in the value of a claim.
 
 ```
     "subjectPosition": "value"
