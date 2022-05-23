@@ -42,6 +42,17 @@ Credential subject example
 "type": "KYCAgeCredential"
 },
 ```
+
+# subjectPosition
+The value shows where to save the subject in the index or value.<br>
+`index` - indicates that subject's position in the index of a claim;<br>
+`value` - indicates that the subject position in the value of a claim;<br>
+`none` - indicates that the subject not located in a claim.
+
+```
+    "subjectPosition": "value"
+```
+
 # credentialSchema
 The value of the credentialSchema property MUST be one or more data schemas that provide verifiers with enough information to determine if the provided data conforms to the provided schema. 
 Each credentialSchema MUST specify its type (for example, JsonSchemaValidator2018), and an id property that MUST be a URI identifying the schema file. The precise contents of each data schema is determined by the specific type definition.
