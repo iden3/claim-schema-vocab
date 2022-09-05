@@ -120,3 +120,7 @@ property for the discovery of information about the current status of a iden3 cr
 id - property is an URI to get revocation information
 type - property, which expresses the credential status type, now it's `SparseMetkleTreeProof`
 
+# Iden3JSONLDValidator
+
+a type of validator that can be used to syntactically validate JSON-LD documents using the JSON Schema language.
+To get schema validator need to make request <credentialSchema.id>#<credentialSubject.type>. Example: `https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v2.json-ld#KYCAgeCredential`
