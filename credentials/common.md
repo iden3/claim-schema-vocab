@@ -122,5 +122,5 @@ type - property, which expresses the credential status type, now it's `SparseMet
 
 # Iden3JSONLDValidator
 
-a type of validator that can be used to syntactically validate JSON-LD documents using the JSON Schema language.
+a type of validator that can be used to syntactically validate JSON-LD documents and transform the credential data into a format, which can then be used by a user to generate a valid zero-knowledge proof.
 To get schema validator need to make request <credentialSchema.id>#<credentialSubject.type>. Example: `https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v2.json-ld#KYCAgeCredential`
