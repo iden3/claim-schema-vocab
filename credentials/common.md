@@ -51,14 +51,14 @@ Credential subject example
 },
 ```
 
-# subjectPosition
+# subject_position
 The value shows where to save the subject in the index or value.<br>
 `index` - indicates that subject's position in the index of a claim;<br>
 `value` - indicates that the subject position in the value of a claim;<br>
 `none` - indicates that the subject not located in a claim.
 
 ```
-    "subjectPosition": "value"
+    "subject_position": "value"
 ```
 
 # credentialSchema
