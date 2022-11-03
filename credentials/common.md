@@ -51,14 +51,14 @@ Credential subject example
 },
 ```
 
-# subjectPosition
+# subject_position
 The value shows where to save the subject in the index or value.<br>
 `index` - indicates that subject's position in the index of a claim;<br>
 `value` - indicates that the subject position in the value of a claim;<br>
 `none` - indicates that the subject not located in a claim.
 
 ```
-    "subjectPosition": "value"
+    "subject_position": "value"
 ```
 
 # credentialSchema
@@ -120,3 +120,7 @@ property for the discovery of information about the current status of a iden3 cr
 id - property is an URI to get revocation information
 type - property, which expresses the credential status type, now it's `SparseMetkleTreeProof`
 
+# Iden3JSONLDValidator
+
+a type of validator that can be used to syntactically validate JSON-LD documents and transform the credential data into a format, which can then be used by a user to generate a valid zero-knowledge proof.
+To get schema validator need to make request <credentialSchema.id>#<credentialSubject.type>. Example: `https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v2.json-ld#KYCAgeCredential`
