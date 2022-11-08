@@ -93,6 +93,14 @@ Updatable Claims are only updated with increasing versions, and only one version
  "updatable": false
 ```
 
+# merklized
+
+Merklized Claims contain the root of merklized structure of Iden3Credential in index, 
+If value is false,  core claim representation of Iden3Credential contain actual data.
+```
+ "merklized": true
+```
+
 
 # version
 version of the claim
