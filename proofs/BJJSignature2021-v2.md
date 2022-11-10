@@ -74,7 +74,7 @@ Sparse merkle tree proof of the auth claim of the issuer
 
 # revocationStatus
 
-URL to fetch revocation status of the issuer auth claim
+Structure that contains information to fetch revocation status of the issuer auth claim
 
 # signature
 

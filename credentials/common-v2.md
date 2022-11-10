@@ -6,7 +6,7 @@ proof contains information that is required for verification of credential.
 supported type for Iden3Credentials: _Iden3SparseMerkleTreeProof_
 
 Proof example   
-```
+```json
 {
             "@type": "Iden3SparseMerkleProof",
             "issuerData": {
@@ -83,11 +83,11 @@ credentialSchema subject example
 }
 ```
 
-# expiration
+# expirationDate
 
-The expiration is expected to be within an expected range for the verifier. For example, a verifier can check that the expiration of a verifiable credential is not in the past.
+The expirationDate is expected to be within an expected range for the verifier. For example, a verifier can check that the expiration of a verifiable credential is not in the past.
 ```
-  "expiration": "2361-03-21T21:14:48+02:00"
+  "expirationDate": "2361-03-21T21:14:48+02:00"
 ```
 
 # revNonce
