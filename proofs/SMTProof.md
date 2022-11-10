@@ -33,8 +33,8 @@ A claim is a statement made by one identity about another identity or itself. Ea
 
 # hIndex
 
-index part of node_aux
+index part of nodeAux
 
 # hValue
 
-value part of node_aux
+value part of nodeAux
