@@ -27,14 +27,14 @@ Allows proving that a claim existed at some point
 
 The list of siblings in a path from a leaf to the root
 
-# node_aux
+# nodeAux
 
 A claim is a statement made by one identity about another identity or itself. Each claim is composed of two parts: index and values. Claims are stored in the leafs of a MT. The index is hashed and used to determine in which leaf position the value of the claim will be stored.
 
-# h_index
+# hIndex
 
 index part of node_aux
 
-# h_value
+# hValue
 
 value part of node_aux
