@@ -6,14 +6,8 @@
       "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/auth-v1.json"
     },
     "serialization": {
-      "indexDataSlotA": [
-        "x"
-      ],
-      "indexDataSlotB": [
-        "y"
-      ],
-      "valueDataSlotA": [],
-      "valueDataSlotB": []
+      "indexDataSlotA": "x",
+      "indexDataSlotB": "y"
     }
   },
   "type": "object",
