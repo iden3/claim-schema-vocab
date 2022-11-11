@@ -32,7 +32,7 @@
           "id": "@id",
           "type": "@type",
           "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
-          "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
           "countryCode": {
             "@id": "kyc-vocab:countryCode",
             "@type": "xsd:integer"
