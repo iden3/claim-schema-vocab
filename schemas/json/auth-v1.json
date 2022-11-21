@@ -109,7 +109,6 @@
     "credentialSubject": {
       "type": "object",
       "required": [
-        "id",
         "x",
         "y"
       ],
@@ -120,10 +119,10 @@
           "format": "uri"
         },
         "x": {
-          "type": "integer"
+          "type": "string"
         },
         "y": {
-          "type": "integer"
+          "type": "string"
         }
       }
     }
