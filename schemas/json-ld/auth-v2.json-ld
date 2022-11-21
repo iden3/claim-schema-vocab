@@ -1,0 +1,28 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "AuthBJJCredential": {
+      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/auth-v2.json-ld#AuthBJJCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "auth-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/auth.md#",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "x": {
+          "@id": "auth-vocab:x",
+          "@type": "xsd:string"
+        },
+        "y": {
+          "@id": "auth-vocab:y",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }]
+}
