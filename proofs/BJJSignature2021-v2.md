@@ -79,3 +79,9 @@ Structure that contains information to fetch revocation status of the issuer aut
 # signature
 
 Signature value in hex format
+
+
+# coreClaim
+
+Hex representation of the conversion result from Verifiable Credential to iden3 core claim according to specification https://docs.iden3.io/protocol/claims-structure/
+These bytes is the payload for given signature.

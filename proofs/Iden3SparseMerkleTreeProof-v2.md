@@ -80,6 +80,12 @@ A merkle tree of claim information according to specification
 Every Identity has a ClT (Claim Tree) and a separate ReT (Revocation Tree). While the claim tree would be private and only the root public, the revocation tree would be entirely public. The roots of both trees (ClT and ReT) are linked via the IdS (Identity State) which is published in the Smart Contract. The revocation tree could be published in IPFS or any other public storage system
 
 
+
+# authCoreClaim
+
+Hex representation of the conversion result from issuer's Auth BJJ Verifiable Credential to iden3 core claim according to specification https://docs.iden3.io/protocol/claims-structure/
+
+
 # mtp
 
 Sparse merkle tree proof of credential in the issuer state
@@ -92,3 +98,8 @@ Issuer identifier
 
 Time in Unix when signature has been created
 
+
+# coreClaim
+
+Hex representation of the conversion result from Verifiable Credential to iden3 core claim according to specification https://docs.iden3.io/protocol/claims-structure/
+These bytes are used for mtp proof.

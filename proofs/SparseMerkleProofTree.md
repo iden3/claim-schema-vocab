@@ -38,3 +38,7 @@ index part of nodeAux
 # hValue
 
 value part of nodeAux
+
+# revocationNonce
+
+integer value that is stored in the revocation tree of the issuer
