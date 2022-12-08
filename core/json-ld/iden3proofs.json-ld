@@ -1,0 +1,244 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Iden3SparseMerkleTreeProof": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3SparseMerkleProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "@propagate": true,
+        "id": "@id",
+        "type": "@type",
+        "sec": "https://w3id.org/security#",
+        "@vocab": "https://schema.iden3.io/core/vocab/Iden3SparseMerkleTreeProof.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "mtp": {
+          "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+          "@type": "SparseMerkleTreeProof"
+        },
+        "coreClaim":  {
+          "@id": "coreClaim",
+          "@type": "xsd:string"
+        },
+        "issuerData": {
+          "@id": "issuerData",
+          "@context": {
+            "@version": 1.1,
+            "state": {
+              "@id": "state",
+              "@context": {
+                "txId": {
+                  "@id": "txId",
+                  "@type": "xsd:string"
+                },
+                "blockTimestamp": {
+                  "@id": "blockTimestamp",
+                  "@type": "xsd:integer"
+                },
+                "blockNumber": {
+                  "@id": "blockNumber",
+                  "@type": "xsd:integer"
+                },
+                "rootOfRoots": {
+                  "@id": "rootOfRoots",
+                  "@type": "xsd:string"
+                },
+                "claimsTreeRoot": {
+                  "@id": "claimsTreeRoot",
+                  "@type": "xsd:string"
+                },
+                "revocationTreeRoot": {
+                  "@id": "revocationTreeRoot",
+                  "@type": "xsd:string"
+                },
+                "authCoreClaim": {
+                  "@id": "authCoreClaim",
+                  "@type": "xsd:string"
+                },
+                "value": {
+                  "@id": "value",
+                  "@type": "xsd:string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "SparseMerkleTreeProof": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "sec": "https://w3id.org/security#",
+        "smt-proof-vocab": "https://schema.iden3.io/core/vocab/SparseMerkleTreeProof.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "existence": {
+          "@id": "smt-proof-vocab:existence",
+          "@type": "xsd:boolean"
+        },
+        "revocationNonce" : {
+          "@id": "smt-proof-vocab:revocationNonce",
+          "@type": "xsd:number"
+        },
+        "siblings": {
+          "@id": "smt-proof-vocab:siblings",
+          "@container": "@list"
+        },
+        "nodeAux": "@nest",
+        "hIndex": {
+          "@id": "smt-proof-vocab:hIndex",
+          "@nest": "nodeAux",
+          "@type": "xsd:string"
+        },
+        "hValue": {
+          "@id": "smt-proof-vocab:hValue",
+          "@nest": "nodeAux",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "BJJSignature2021": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#BJJSignature2021",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "@vocab": "https://schema.iden3.io/core/vocab/BJJSignature2021.md#",
+        "@propagate": true,
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "coreClaim":  {
+          "@id": "coreClaim",
+          "@type": "xsd:string"
+        },
+        "issuerData": {
+          "@id": "issuerData",
+          "@context": {
+            "@version": 1.1,
+            "authCoreClaim": {
+              "@id": "authCoreClaim",
+              "@type": "xsd:string"
+            },
+            "mtp": {
+              "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+              "@type": "SparseMerkleTreeProof"
+            },
+            "revocationStatus": {
+              "@id": "revocationStatus",
+              "@type": "@id"
+            },
+            "state": {
+              "@id": "state",
+              "@context": {
+                "@version": 1.1,
+                "rootOfRoots": {
+                  "@id": "rootOfRoots",
+                  "@type": "xsd:string"
+                },
+                "claimsTreeRoot": {
+                  "@id": "claimsTreeRoot",
+                  "@type": "xsd:string"
+                },
+                "revocationTreeRoot": {
+                  "@id": "revocationTreeRoot",
+                  "@type": "xsd:string"
+                },
+                "value": {
+                  "@id": "value",
+                  "@type": "xsd:string"
+                }
+              }
+            }
+          }
+        },
+        "signature": {
+          "@id": "signature",
+          "@type": "https://w3id.org/security#multibase"
+        },
+        "domain": "https://w3id.org/security#domain",
+        "creator": {
+          "@id": "creator",
+          "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "challenge": "https://w3id.org/security#challenge",
+        "created": {
+          "@id": "created",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "expires": {
+          "@id": "https://w3id.org/security#expiration",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "nonce": "https://w3id.org/security#nonce",
+        "proofPurpose": {
+          "@id": "https://w3id.org/security#proofPurpose",
+          "@type": "@vocab",
+          "@context": {
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "assertionMethod": {
+              "@id": "https://w3id.org/security#assertionMethod",
+              "@type": "@id",
+              "@container": "@set"
+            },
+            "authentication": {
+              "@id": "https://w3id.org/security#authenticationMethod",
+              "@type": "@id",
+              "@container": "@set"
+            },
+            "capabilityInvocation": {
+              "@id": "https://w3id.org/security#capabilityInvocationMethod",
+              "@type": "@id",
+              "@container": "@set"
+            },
+            "capabilityDelegation": {
+              "@id": "https://w3id.org/security#capabilityDelegationMethod",
+              "@type": "@id",
+              "@container": "@set"
+            },
+            "keyAgreement": {
+              "@id": "https://w3id.org/security#keyAgreementMethod",
+              "@type": "@id",
+              "@container": "@set"
+            }
+          }
+        },
+        "proofValue": {
+          "@id": "https://w3id.org/security#proofValue",
+          "@type": "https://w3id.org/security#multibase"
+        },
+        "verificationMethod": {
+          "@id": "https://w3id.org/security#verificationMethod",
+          "@type": "@id"
+        }
+      }
+    },
+    "Iden3ReverseSparseMerkleTreeProof": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3ReverseSparseMerkleTreeProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "iden3-reverse-sparse-merkle-tree-proof-vocab": "https://schema.iden3.io/core/vocab/Iden3ReverseSparseMerkleTreeProof.md#",
+        "revocationNonce":  "iden3-reverse-sparse-merkle-tree-proof-vocab:revocationNonce",
+        "statusIssuer": {
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type"
+          },
+          "@id": "iden3-reverse-sparse-merkle-tree-proof-vocab:statusIssuer"
+        }
+      }
+    }
+  }
+}
