@@ -1,0 +1,27 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "AuthBJJCredential": {
+      "@id": "https://schema.iden3.io/core/jsonld/auth.json-ld#AuthBJJCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "auth-vocab": "https://schema.iden3.io/core/vocab/auth.md#",
+        "x": {
+          "@id": "auth-vocab:x",
+          "@type": "xsd:string"
+        },
+        "y": {
+          "@id": "auth-vocab:y",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }]
+}

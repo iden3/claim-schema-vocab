@@ -5,7 +5,7 @@
     "id": "@id",
     "type": "@type",
     "Iden3SparseMerkleTreeProof": {
-      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#Iden3SparseMerkleProof",
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3SparseMerkleProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -13,10 +13,10 @@
         "id": "@id",
         "type": "@type",
         "sec": "https://w3id.org/security#",
-        "@vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/proofs/Iden3SparseMerkleTreeProof-v2.md#",
+        "@vocab": "https://schema.iden3.io/core/vocab/Iden3SparseMerkleTreeProof.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "mtp": {
-          "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#SparseMerkleTreeProof",
+          "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
           "@type": "SparseMerkleTreeProof"
         },
         "coreClaim":  {
@@ -69,14 +69,14 @@
       }
     },
     "SparseMerkleTreeProof": {
-      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#SparseMerkleTreeProof",
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
         "sec": "https://w3id.org/security#",
-        "smt-proof-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/proofs/SparseMerkleTreeProof.md#",
+        "smt-proof-vocab": "https://schema.iden3.io/core/vocab/SparseMerkleTreeProof.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "existence": {
           "@id": "smt-proof-vocab:existence",
@@ -104,12 +104,12 @@
       }
     },
     "BJJSignature2021": {
-      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#BJJSignature2021",
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#BJJSignature2021",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
-        "@vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/proofs/BJJSignature2021-v2.md#",
+        "@vocab": "https://schema.iden3.io/core/vocab/BJJSignature2021.md#",
         "@propagate": true,
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
@@ -126,7 +126,7 @@
               "@type": "xsd:string"
             },
             "mtp": {
-              "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#SparseMerkleTreeProof",
+              "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
               "@type": "SparseMerkleTreeProof"
             },
             "revocationStatus": {
@@ -221,13 +221,13 @@
       }
     },
     "Iden3ReverseSparseMerkleTreeProof": {
-      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/iden3credential-v2.json-ld#Iden3ReverseSparseMerkleTreeProof",
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3ReverseSparseMerkleTreeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "iden3-reverse-sparse-merkle-tree-proof-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/proofs/Iden3ReverseSparseMerkleTreeProof.md#",
+        "iden3-reverse-sparse-merkle-tree-proof-vocab": "https://schema.iden3.io/core/vocab/Iden3ReverseSparseMerkleTreeProof.md#",
         "revocationNonce":  "iden3-reverse-sparse-merkle-tree-proof-vocab:revocationNonce",
         "statusIssuer": {
           "@context": {
