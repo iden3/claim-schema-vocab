@@ -5,7 +5,7 @@
     "id": "@id",
     "type": "@type",
     "AuthBJJCredential": {
-      "@id": "https://schema.iden3.io/core/jsonld/auth.json-ld#AuthBJJCredential",
+      "@id": "https://schema.iden3.io/core/json-ld/auth.json-ld#AuthBJJCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
