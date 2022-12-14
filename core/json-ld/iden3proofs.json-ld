@@ -5,7 +5,7 @@
     "id": "@id",
     "type": "@type",
     "Iden3SparseMerkleTreeProof": {
-      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3SparseMerkleTreeProof",
+      "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#Iden3SparseMerkleTreeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -16,7 +16,7 @@
         "@vocab": "https://schema.iden3.io/core/vocab/Iden3SparseMerkleTreeProof.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "mtp": {
-          "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+          "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#SparseMerkleTreeProof",
           "@type": "SparseMerkleTreeProof"
         },
         "coreClaim":  {
@@ -69,7 +69,7 @@
       }
     },
     "SparseMerkleTreeProof": {
-      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+      "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#SparseMerkleTreeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -104,7 +104,7 @@
       }
     },
     "BJJSignature2021": {
-      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#BJJSignature2021",
+      "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#BJJSignature2021",
       "@context": {
         "@version": 1.1,
         "@protected": true,
@@ -126,7 +126,7 @@
               "@type": "xsd:string"
             },
             "mtp": {
-              "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#SparseMerkleTreeProof",
+              "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#SparseMerkleTreeProof",
               "@type": "SparseMerkleTreeProof"
             },
             "revocationStatus": {
@@ -221,7 +221,7 @@
       }
     },
     "Iden3ReverseSparseMerkleTreeProof": {
-      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.json-ld#Iden3ReverseSparseMerkleTreeProof",
+      "@id": "https://schema.iden3.io/core/json-ld/iden3proofs.json-ld#Iden3ReverseSparseMerkleTreeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
