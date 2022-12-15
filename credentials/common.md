@@ -112,6 +112,12 @@ defines value type
 ```
  "serialization": Index
 ```
+# secret
+
+A secret number 
+```
+  "secret": 55066263022277343669578718895168534326250603453777594175500187360389116729240
+```
 
 # credentialStatus
 
