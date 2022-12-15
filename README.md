@@ -15,7 +15,7 @@ The repository structure is following:
 1. credentials
 
    The folder contains vocabulary definitions for common claim structure, authentication claim, KYC-specific vocabulary, and serialization vocabulary.
-   For example, field *countryCode* is defined in [kyc.md](http://kyc.md) vocabulary file and resolved to link [https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#countrycode](https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#countrycode) that gives information about the field: description, type, example.
+   For example, field *countryCode* is defined in [kyc.md](credentials/kyc.md) vocabulary file and resolved to link [https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#countrycode](https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#countrycode) that gives information about the field: description, type, example.
 
    - Example of Iden3Credential:
 
