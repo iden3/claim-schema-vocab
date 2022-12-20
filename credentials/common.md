@@ -112,6 +112,12 @@ defines value type
 ```
  "serialization": Index
 ```
+# secret
+
+A secret number to enforce one vote per identitiy in the sybil resistance mechanism (similar to the concepts of nullifers)
+```
+  "secret": 55066263022277343669578718895168534326250603453777594175500187360389116729240
+```
 
 # credentialStatus
 
