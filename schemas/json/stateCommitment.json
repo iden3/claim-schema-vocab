@@ -1,23 +1,24 @@
+
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$metadata": {
-    "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/stateSecret.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/stateSecret.json"
-    },
-    "serialization": {
-      "valueDataSlotA": "secret"
-    }
-  },
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$metadata": {
+        "uris": {
+          "jsonLdContext": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/stateCommitment.json-ld",
+          "jsonSchema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json/stateCommitment.json"
+        },
+        "serialization": {
+          "valueDataSlotA": "secret"
+        }
+      },
   "type": "object",
   "required": [
-    "@context",
-    "id",
-    "type",
-    "issuanceDate",
-    "credentialSchema",
+    "@context",             
+    "id",                   
+    "type",                 
+    "issuanceDate",         
+    "credentialSchema",     
     "credentialStatus",
-    "credentialSubject"
+    "credentialSubject"                
   ],
   "properties": {
     "@context": {
@@ -82,6 +83,5 @@
           "type": "string"
         }
       }
-    }
   }
 }
