@@ -5,8 +5,8 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "StateSecretCredential": {
-                "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/stateSecret.json-ld#StateSecretCredential",
+            "StateCommitmentCredential": {
+                "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/stateCommitment.json-ld#StateCommitmentCredential",
                 "@context": {
                   "@version": 1.1,
                   "@protected": true,
