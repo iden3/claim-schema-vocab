@@ -22,6 +22,92 @@
           "@type": "xsd:string"
         }
       }
+    },
+    "Iden3StateInfo2023": {
+      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/auth.json-ld#Iden3StateInfo2023",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/state-info.md#",
+        "@propagate": true,
+        "blockchainAccountId": {
+          "@id": "blockchainAccountId",
+          "@type": "xsd:string"
+        },
+        "published": {
+          "@id": "published",
+          "@type": "xsd:boolean"
+        },
+        "info": {
+          "@id": "info",
+          "@type": "@id",
+          "@context": {
+            "@protected": true,
+            "id": {
+              "@id": "id",
+              "@type": "xsd:string"
+            },
+            "state": {
+              "@id": "state",
+              "@type": "xsd:string"
+            },
+            "replacedByState": {
+              "@id": "replacedByState",
+              "@type": "xsd:string"
+            },
+            "createdAtTimestamp": {
+              "@id": "createdAtTimestamp",
+              "@type": "xsd:string"
+            },
+            "replacedAtTimestamp": {
+              "@id": "replacedAtTimestamp",
+              "@type": "xsd:string"
+            },
+            "createdAtBlock": {
+              "@id": "createdAtBlock",
+              "@type": "xsd:string"
+            },
+            "replacedAtBlock": {
+              "@id": "replacedAtBlock",
+              "@type": "xsd:string"
+            }
+          }
+        },
+        "global": {
+          "@id": "global",
+          "@type": "@id",
+          "@context": {
+            "@protected": true,
+            "root": {
+              "@id": "root",
+              "@type": "xsd:string"
+            },
+            "replacedByRoot": {
+              "@id": "replacedByRoot",
+              "@type": "xsd:string"
+            },
+            "createdAtTimestamp": {
+              "@id": "createdAtTimestamp",
+              "@type": "xsd:string"
+            },
+            "replacedAtTimestamp": {
+              "@id": "replacedAtTimestamp",
+              "@type": "xsd:string"
+            },
+            "createdAtBlock": {
+              "@id": "createdAtBlock",
+              "@type": "xsd:string"
+            },
+            "replacedAtBlock": {
+              "@id": "replacedAtBlock",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
     }
   }]
 }
