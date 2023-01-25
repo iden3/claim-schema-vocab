@@ -24,14 +24,14 @@
       }
     },
     "Iden3StateInfo2023": {
-      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/auth.json-ld#Iden3StateInfo2023",
+      "@id": "https://schema.iden3.io/core/jsonld/auth.jsonld#Iden3StateInfo2023",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "@vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/state-info.md#",
+        "@vocab": "https://schema.iden3.io/core/vocab/state-info.md#",
         "@propagate": true,
         "blockchainAccountId": {
           "@id": "blockchainAccountId",
