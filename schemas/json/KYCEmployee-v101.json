@@ -106,7 +106,6 @@
         "type": "object",
         "required": [
           "id",
-          "birthday",
           "documentType"
         ],
         "properties": {
