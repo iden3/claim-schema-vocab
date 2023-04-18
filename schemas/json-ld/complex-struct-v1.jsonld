@@ -19,8 +19,9 @@
             "@type": "xsd:integer",
             "@id": "kyc-vocab:birthday",
             "@nest": "passportInfo"
-           }
+          }
         }
       }
+    }
   ]
 }
