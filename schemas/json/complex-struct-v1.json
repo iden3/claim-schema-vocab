@@ -106,8 +106,7 @@
       "type": "object",
       "required": [
         "id",
-        "birthday",
-        "documentType"
+        "passportInfo"
       ],
       "properties": {
         "id": {
