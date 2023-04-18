@@ -1,0 +1,26 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ComplexType": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/complex-struct-v1.jsonld#ComplexType",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "passportInfo": "@nest",
+          "birthday": {
+            "@type": "xsd:integer",
+            "@id": "kyc-vocab:birthday",
+            "@nest": "passportInfo"
+           }
+        }
+      }
+  ]
+}
