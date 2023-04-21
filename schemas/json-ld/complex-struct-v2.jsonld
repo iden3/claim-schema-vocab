@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ComplexTypeNotNested": {
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/complex-struct-v2.jsonld#ComplexTypeNotNested",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "passportInfo": {
+            "@id": "kyc-vocab:passportInfo",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "id": "@id",
+              "type": "@type",
+              "birthday": {
+                "@type": "xsd:integer",
+                "@id": "kyc-vocab:birthday"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
