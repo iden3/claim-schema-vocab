@@ -19,6 +19,8 @@
             "@context": {
               "@version": 1.1,
               "@protected": true,
+              "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+              "xsd": "http://www.w3.org/2001/XMLSchema#",
               "id": "@id",
               "type": "@type",
               "birthday": {
