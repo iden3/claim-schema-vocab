@@ -1,0 +1,79 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "KYCAgeCredential": {
+        "@id": "urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "birthday": {
+            "@id": "kyc-vocab:birthday",
+            "@type": "xsd:integer"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      },
+      "KYCCountryOfResidenceCredential": {
+        "@id": "urn:uuid:a81d4fae-7dec-11d0-a765-00a0c91e6bf0",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "countryCode": {
+            "@id": "kyc-vocab:countryCode",
+            "@type": "xsd:integer"
+          },
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      },
+      "KYCEmployee": {
+        "@id": "urn:uuid:b71d4fae-7dec-11d0-a765-00a0c91e6bf1",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/kyc.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "documentType": {
+            "@id": "kyc-vocab:documentType",
+            "@type": "xsd:integer"
+          },
+          "ZKPexperiance": {
+            "@id": "kyc-vocab:hasZKPexperiance",
+            "@type": "xsd:boolean"
+          },
+          "hireDate": {
+            "@id": "kyc-vocab:hireDate",
+            "@type": "xsd:dateTime"
+          },
+          "position": {
+            "@id": "kyc-vocab:position",
+            "@type": "xsd:string"
+          },
+          "salary": {
+            "@id": "kyc-vocab:salary",
+            "@type": "xsd:double"
+          }
+        }
+      }
+    }
+  ]
+}
