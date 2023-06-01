@@ -2,15 +2,17 @@
 
 ```json
 {
-  "id": "eip155:80001:0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+  "id": "did:polygonid:polygon:mumbai:2qCU58EJgrEMWhziKqC3qNXJkZPY8XCxDSBM4mqPkM/credentialStatus?revocationNonce=49853&contractAddress=0xf3bB959314B5D1e4587e1f597ccc289216608ac5",
   "type": "Iden3OnchainSparseMerkleTreeProof2023",
-  "revocationNonce": "1234"
+  "revocationNonce": "49853"
 }
 ```
 
 # id
 
-The id field consists of three parts: chain protocol, chain id, contract address.
+The id field is valid did with query parameters.
+`revocationNonce` - revocation nonce of a credential.
+`contractAddress` that manages the status of this credential.
 
 # revocationNonce
 
