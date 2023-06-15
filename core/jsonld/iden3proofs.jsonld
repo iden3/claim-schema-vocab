@@ -239,6 +239,46 @@
           "@id": "iden3-reverse-sparse-merkle-tree-proof-vocab:statusIssuer"
         }
       }
+    },
+    "Iden3commRevocationStatusV1.0": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#Iden3commRevocationStatusV1.0",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "iden3-comm-revocation-statusV1.0-vocab": "https://schema.iden3.io/core/vocab/Iden3commRevocationStatusV1.0.md#",
+        "revocationNonce":  "iden3-comm-revocation-statusV1.0-vocab:revocationNonce",
+        "statusIssuer": {
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type"
+          },
+          "@id": "iden3-comm-revocation-statusV1.0-vocab:statusIssuer"
+        }
+      }
+    },
+    "Iden3OnchainSparseMerkleTreeProof2023": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#Iden3OnchainSparseMerkleTreeProof2023",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "iden3-onchain-sparse-merkle-tree-proof-2023-vocab": "https://schema.iden3.io/core/vocab/Iden3OnchainSparseMerkleTreeProof2023.md#",
+        "revocationNonce":  "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:revocationNonce",
+        "statusIssuer": {
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type"
+          },
+          "@id": "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:statusIssuer"
+        }
+      }
     }
   }
 }
