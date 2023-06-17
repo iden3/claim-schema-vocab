@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "AgeType": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "polygon-vocab": "urn:uuid:dea0e44f-d3f4-4e32-be26-7bcae3a4e824#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "age": {
+            "@id": "polygon-vocab:age",
+            "@type": "xsd:integer"
+          }
+        },
+        "id": "urn:uuid:38cbce6e-520e-4e74-8f6e-d04a9b5c7661"
+      }
+    }
+  ]
+}
