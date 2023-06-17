@@ -16,7 +16,7 @@
             "@type": "xsd:integer"
           }
         },
-        "id": "urn:uuid:38cbce6e-520e-4e74-8f6e-d04a9b5c7661"
+        "@id": "urn:uuid:38cbce6e-520e-4e74-8f6e-d04a9b5c7661"
       }
     }
   ]
