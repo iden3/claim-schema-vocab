@@ -19,7 +19,7 @@
           "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#SparseMerkleTreeProof",
           "@type": "SparseMerkleTreeProof"
         },
-        "coreClaim":  {
+        "coreClaim": {
           "@id": "coreClaim",
           "@type": "xsd:string"
         },
@@ -82,7 +82,7 @@
           "@id": "smt-proof-vocab:existence",
           "@type": "xsd:boolean"
         },
-        "revocationNonce" : {
+        "revocationNonce": {
           "@id": "smt-proof-vocab:revocationNonce",
           "@type": "xsd:number"
         },
@@ -113,7 +113,7 @@
         "@propagate": true,
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "coreClaim":  {
+        "coreClaim": {
           "@id": "coreClaim",
           "@type": "xsd:string"
         },
@@ -228,7 +228,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-reverse-sparse-merkle-tree-proof-vocab": "https://schema.iden3.io/core/vocab/Iden3ReverseSparseMerkleTreeProof.md#",
-        "revocationNonce":  "iden3-reverse-sparse-merkle-tree-proof-vocab:revocationNonce",
+        "revocationNonce": "iden3-reverse-sparse-merkle-tree-proof-vocab:revocationNonce",
         "statusIssuer": {
           "@context": {
             "@version": 1.1,
@@ -248,7 +248,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-comm-revocation-statusV1.0-vocab": "https://schema.iden3.io/core/vocab/Iden3commRevocationStatusV1.0.md#",
-        "revocationNonce":  "iden3-comm-revocation-statusV1.0-vocab:revocationNonce",
+        "revocationNonce": "iden3-comm-revocation-statusV1.0-vocab:revocationNonce",
         "statusIssuer": {
           "@context": {
             "@version": 1.1,
@@ -268,7 +268,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-onchain-sparse-merkle-tree-proof-2023-vocab": "https://schema.iden3.io/core/vocab/Iden3OnchainSparseMerkleTreeProof2023.md#",
-        "revocationNonce":  "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:revocationNonce",
+        "revocationNonce": "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:revocationNonce",
         "statusIssuer": {
           "@context": {
             "@version": 1.1,
@@ -279,6 +279,7 @@
           "@id": "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:statusIssuer"
         }
       }
-    }
+    },
+    "JsonSchema2023": "https://www.w3.org/ns/credentials#JsonSchema2023"
   }
 }
