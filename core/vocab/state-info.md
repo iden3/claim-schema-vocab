@@ -10,10 +10,10 @@ Representation type.
 "type": "Iden3StateInfo2023"
 ```
 
-# blockchainAccountId
-The chain info is encoded in the format "${chain_id}:${contractAddress}".
+# stateContractAddress
+The chain info is encoded in the format "${chain_id}:${stateContractAddress}".
 ```
-  "blockchainAccountId": "80001:0x134B1BE34911E39A8397ec6289782989729807a4"
+  "stateContractAddress": "80001:0x134B1BE34911E39A8397ec6289782989729807a4"
 ```
 
 # published
