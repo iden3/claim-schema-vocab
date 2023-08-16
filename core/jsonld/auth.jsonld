@@ -11,7 +11,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "iden3_serialization": "iden3:v1:slotIndexA=birthday&slotIndexB=documentType",
+        "iden3_serialization": "iden3:v1:slotIndexA=x&slotIndexB=y",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "auth-vocab": "https://schema.iden3.io/core/vocab/auth.md#",
         "x": {
