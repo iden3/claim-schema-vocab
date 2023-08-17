@@ -17,11 +17,11 @@
         "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "x": {
           "@id": "auth-vocab:x",
-          "@type": "xsd:string"
+          "@type": "xsd:positiveInteger"
         },
         "y": {
           "@id": "auth-vocab:y",
-          "@type": "xsd:string"
+          "@type": "xsd:positiveInteger"
         }
       }
     }

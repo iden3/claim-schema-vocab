@@ -16,11 +16,11 @@
         "auth-vocab": "https://schema.iden3.io/core/vocab/auth.md#",
         "x": {
           "@id": "auth-vocab:x",
-          "@type": "xsd:string"
+          "@type": "xsd:positiveInteger"
         },
         "y": {
           "@id": "auth-vocab:y",
-          "@type": "xsd:string"
+          "@type": "xsd:positiveInteger"
         }
       }
     },
