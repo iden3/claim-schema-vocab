@@ -12,6 +12,7 @@
         "id": "@id",
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "iden3_serialization": "iden3:v1:slotIndexA=x&slotIndexB=y",
         "auth-vocab": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/auth.md#",
         "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "x": {
