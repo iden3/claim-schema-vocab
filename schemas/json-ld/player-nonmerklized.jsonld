@@ -1,0 +1,36 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Player": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "iden3_serialization": "iden3:v1:slotIndexA=nickname&slotIndexB=createdAt&slotValueA=power&slotValueB=active",
+                    "polygon-vocab": "urn:uuid:df2fdb18-f3a9-43f1-9427-ea3dcf3c740e#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "power": {
+                        "@id": "polygon-vocab:height",
+                        "@type": "xsd:double"
+                    },
+                    "nickname": {
+                        "@id": "polygon-vocab:nickname",
+                        "@type": "xsd:string"
+                    },
+                    "createdAt": {
+                        "@id": "polygon-vocab:createdAt",
+                        "@type": "xsd:dateTime"
+                    },
+                    "active": {
+                        "@id": "polygon-vocab:active",
+                        "@type": "xsd:boolean"
+                    }
+                },
+                "@id": "urn:uuid:70498b8f-ac8f-4e11-9b98-6c45d6fab1ba"
+            }
+        }
+    ]
+}
