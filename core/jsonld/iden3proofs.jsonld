@@ -280,6 +280,7 @@
         }
       }
     },
-    "JsonSchema2023": "https://www.w3.org/ns/credentials#JsonSchema2023"
+    "JsonSchema2023": "https://www.w3.org/ns/credentials#JsonSchema2023",
+    "Iden3RefreshService2023": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#Iden3RefreshService2023"
   }
 }
