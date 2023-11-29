@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "KYCAgeCredential": {
-        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld#KYCAgeCredential",
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/test/cred-array/schemas/json-ld/kyc-v4-arr.jsonld#KYCAgeCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
@@ -29,7 +29,7 @@
         }
       },
       "KYCCountryOfResidenceCredential": {
-        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v4.jsonld#KYCCountryOfResidenceCredential",
+        "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/test/cred-array/schemas/json-ld/kyc-v4-arr.jsonld#KYCCountryOfResidenceCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
