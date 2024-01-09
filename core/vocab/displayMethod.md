@@ -1,8 +1,8 @@
 # Iden3BasicDisplayMethodV1
 
-Represents the basic display type of verifiable credential if this type is used wallet can draw a credential front card
-according to the information provided file linked in id attribute of the displayType object
+The basic display method of verifiable credential that is used to draw a front card of the credential in the wallet.
 
 # displayMethod
 
-Display method of verifiable credential that is used to draw a front card of the credential.
+Represents the display method of verifiable credential. If this attribute exists in credential wallet can draw a credential
+according to the information provided in the source of `id` attribute of the `displayMethod` object.
