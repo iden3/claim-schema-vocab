@@ -12,7 +12,7 @@
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "Iden3BasicDisplayTypeV1": "https://schema.iden3.io/core/jsonld/displayMethod.jsonld#Iden3BasicDisplayTypeV1"
+        "Iden3BasicDisplayTypeV1": "https://schema.iden3.io/core/vocab/displayMethod.md#Iden3BasicDisplayTypeV1"
       }
     }
   }
