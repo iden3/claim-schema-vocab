@@ -4,15 +4,15 @@
     "@protected": true,
     "id": "@id",
     "type": "@type",
-    "displayType": {
-      "@id": "https://schema.iden3.io/core/vocab/displayType.md#displayType",
+    "displayMethod": {
+      "@id": "https://schema.iden3.io/core/vocab/displayMethod.md#displayMethod",
       "@type": "@id",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "Iden3BasicDisplayTypeV1": "https://schema.iden3.io/core/jsonld/displayType.jsonld#Iden3BasicDisplayTypeV1"
+        "Iden3BasicDisplayTypeV1": "https://schema.iden3.io/core/jsonld/displayMethod.jsonld#Iden3BasicDisplayTypeV1"
       }
     }
   }
