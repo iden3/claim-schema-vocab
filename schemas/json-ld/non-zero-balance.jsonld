@@ -1,0 +1,27 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Balance": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:6ab2c759-5f19-498f-91a7-a6650e067b8d#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "balance": {
+                        "@id": "polygon-vocab:balance",
+                        "@type": "xsd:positiveInteger"
+                    },
+                    "address": {
+                        "@id": "polygon-vocab:address",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:f50cfcf6-ded4-470e-83be-2d6820a66998"
+            }
+        }
+    ]
+}
