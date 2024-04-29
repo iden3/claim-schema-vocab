@@ -13,6 +13,7 @@
         "id": "@id",
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://schema.iden3.io/core/vocab/Iden3ZeroKnowledgeProof.md#",
         "circuit_id": {
           "@id": "circuit_id",
           "@type": "xsd:string"
@@ -35,10 +36,7 @@
         },
         "pi_b": {
           "@id": "pi_b",
-          "@container": "@list",
-          "@list": {
-            "@container": "@list"
-          }
+          "@container": "@list"
         },
         "pi_c": {
           "@id": "pi_c",
