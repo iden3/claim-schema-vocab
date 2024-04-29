@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Iden3ZeroKnowledgeProof": {
+      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#Iden3ZeroKnowledgeProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "@propagate": true,
+        "id": "@id",
+        "type": "@type",
+        "sec": "https://w3id.org/security#",
+        "@vocab": "https://schema.iden3.io/core/vocab/Iden3ZeroKnowledgeProof.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "circuitId": {
+          "@id": "circuitId",
+          "@type": "xsd:string"
+        },
+        "protocol": {
+          "@id": "protocol",
+          "@type": "xsd:string"
+        },
+        "curve": {
+          "@id": "curve",
+          "@type": "xsd:string"
+        },
+        "pub_signals": {
+          "@id": "pub_signals",
+          "@container": "@list"
+        },
+        "pi_a": {
+          "@id": "pi_a",
+          "@container": "@list"
+        },
+        "pi_b": {
+          "@id": "pi_b",
+          "@container": "@list"
+        },
+        "pi_c": {
+          "@id": "pi_c",
+          "@container": "@list"
+        }
+      }
+    }
+  }
+}
