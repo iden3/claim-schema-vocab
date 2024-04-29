@@ -5,18 +5,16 @@
     "id": "@id",
     "type": "@type",
     "Iden3ZeroKnowledgeProof": {
-      "@id": "https://schema.iden3.io/core/jsonld/iden3proofs.jsonld#Iden3ZeroKnowledgeProof",
+      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/cbf810ea5620054be44efeb29e5bd41e030f7815/core/jsonld/Iden3ZeroKnowledgeProof.jsonld#Iden3ZeroKnowledgeProof",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "@propagate": true,
         "id": "@id",
         "type": "@type",
-        "sec": "https://w3id.org/security#",
-        "@vocab": "https://schema.iden3.io/core/vocab/Iden3ZeroKnowledgeProof.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "circuitId": {
-          "@id": "circuitId",
+        "circuit_id": {
+          "@id": "circuit_id",
           "@type": "xsd:string"
         },
         "protocol": {
@@ -37,7 +35,10 @@
         },
         "pi_b": {
           "@id": "pi_b",
-          "@container": "@list"
+          "@container": "@list",
+          "@list": {
+            "@container": "@list"
+          }
         },
         "pi_c": {
           "@id": "pi_c",
