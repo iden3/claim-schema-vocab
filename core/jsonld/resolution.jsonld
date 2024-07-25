@@ -7,7 +7,6 @@
       "Iden3ResolutionMetadata": {
         "@id": "https://schema.iden3.io/core/jsonld/resolutuion.jsonld#Iden3ResolutionMetadata",
         "@context": {
-          "@protected": true,
           "@propagate": true,
           "resolution-vocab": "https://schema.iden3.io/core/vocab/resolution.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
