@@ -5,7 +5,7 @@
       "type": "@type",
   
       "Iden3ResolutionMetadata": {
-        "@id": "https://schema.iden3.io/core/jsonld/resolutuion.jsonld#Iden3ResolutionMetadata",
+        "@id": "https://schema.iden3.io/core/jsonld/resolution.jsonld#Iden3ResolutionMetadata",
         "@context": {
           "@propagate": true,
           "resolution-vocab": "https://schema.iden3.io/core/vocab/resolution.md#",
