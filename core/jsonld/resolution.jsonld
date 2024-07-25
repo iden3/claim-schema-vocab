@@ -1,0 +1,22 @@
+{
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+  
+      "id": "@id",
+      "type": "@type",
+  
+      "Iden3ResolutionMetadata": {
+        "@id": "https://schema.iden3.io/core/jsonld/resolutuion.jsonld#Iden3ResolutionMetadata",
+        "@context": {
+          "@protected": true,
+          "@propagate": true,
+          "resolution-vocab": "https://schema.iden3.io/core/vocab/resolution.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "sec": "https://w3id.org/security#",
+          "proof": {"@id": "sec:proof", "@type": "@id", "@container": "@graph"},
+          "retrieved": {"@id": "resolution-vocab:retrieved", "@type": "xsd:dateTime"}
+      }
+    }
+  }
+}
