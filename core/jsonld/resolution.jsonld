@@ -1,18 +1,30 @@
 {
-    "@context": {
-      "@version": 1.1,
-      "id": "@id",
-      "type": "@type",
-  
-      "Iden3ResolutionMetadata": {
-        "@id": "https://schema.iden3.io/core/jsonld/resolution.jsonld#Iden3ResolutionMetadata",
-        "@context": {
-          "@propagate": true,
-          "resolution-vocab": "https://schema.iden3.io/core/vocab/resolution.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "sec": "https://w3id.org/security#",
-          "proof": {"@id": "sec:proof", "@type": "@id", "@container": "@graph"},
-          "retrieved": {"@id": "resolution-vocab:retrieved", "@type": "xsd:dateTime"}
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "Iden3ResolutionMetadata": {
+      "@id": "https://schema.iden3.io/core/jsonld/resolution.jsonld#Iden3ResolutionMetadata",
+      "@context": {
+        "@propagate": true,
+        "@protected": true,
+        "resolution-vocab": "https://schema.iden3.io/core/vocab/resolution.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "sec": "https://w3id.org/security#",
+        "proof": {
+          "@id": "sec:proof",
+          "@type": "@id",
+          "@container": "@graph",
+          "@context": [ {
+            "created": {
+              "@id": "http://purl.org/dc/terms/created",
+              "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+          }]
+        },
+        "retrieved": {
+          "@id": "resolution-vocab:retrieved",
+          "@type": "xsd:dateTime"
+        }
       }
     }
   }
