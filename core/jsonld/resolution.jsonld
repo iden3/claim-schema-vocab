@@ -18,6 +18,10 @@
             "created": {
               "@id": "http://purl.org/dc/terms/created",
               "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "message":  {
+              "@id": "https://w3c-ccg.github.io/ethereum-eip712-signature-2021-spec/#message",
+              "@type": "@json"
             }
           }]
         },
