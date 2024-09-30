@@ -17,7 +17,6 @@
       "type:": "address"
     }
   ],
- 
   "Iden3PaymentRailsRequestV1": [
     {
       "name": "expirationDate",
