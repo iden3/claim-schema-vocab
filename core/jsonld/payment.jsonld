@@ -9,7 +9,7 @@
       "@context": {
         "@protected": true,
         "@propagate": true,
-        "@vocab": "https://schema.iden3.io/core/vocab/Iden3PaymentRailsRequestV1.md#",
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "nonce": {
           "@id": "nonce",
