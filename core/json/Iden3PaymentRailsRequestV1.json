@@ -17,32 +17,7 @@
       "type:": "address"
     }
   ],
-  "Proof": [
-    {
-      "name": "created",
-      "type": "string"
-    },
-    {
-      "name": "eip712",
-      "type": "Eip712"
-    },
-    {
-      "name": "proofPurpose",
-      "type": "string"
-    },
-    {
-      "name": "proofValue",
-      "type": "string"
-    },
-    {
-      "name": "type",
-      "type": "string"
-    },
-    {
-      "name": "verificationMethod",
-      "type": "string"
-    }
-  ],
+ 
   "Iden3PaymentRailsRequestV1": [
     {
       "name": "expirationDate",
