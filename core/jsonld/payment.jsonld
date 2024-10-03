@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Iden3PaymentRailsRequestV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRailsRequestV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nonce": {
+          "@id": "nonce",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "value": {
+          "@id": "value",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "recipient": {
+          "@id": "value",
+          "@type": "xsd:string"
+        },
+        "expirationDate": {
+          "@id": "expirationDate",
+          "@type": "xsd:dateTime"
+        },
+        "metadata": {
+          "@id": "metadata",
+          "@type": "xsd:string"
+        }
+      }
+    }
+  }
+}
