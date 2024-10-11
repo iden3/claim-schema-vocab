@@ -34,6 +34,11 @@
         "metadata": {
           "@id": "metadata",
           "@type": "xsd:string"
+        },
+        "proof": {
+          "@id": "https://w3id.org/security#proof",
+          "@type": "@id",
+          "@container": "@graph"
         }
       }
     },
