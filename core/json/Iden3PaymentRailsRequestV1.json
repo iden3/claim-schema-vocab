@@ -23,7 +23,7 @@
       "type": "address"
     },
     {
-      "name": "value",
+      "name": "amount",
       "type": "uint256"
     },
     {
