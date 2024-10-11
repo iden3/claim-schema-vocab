@@ -15,8 +15,8 @@
           "@id": "nonce",
           "@type": "xsd:nonNegativeInteger"
         },
-        "value": {
-          "@id": "value",
+        "amount": {
+          "@id": "amount",
           "@type": "xsd:nonNegativeInteger"
         },
         "recipient": {
@@ -27,8 +27,37 @@
           "@id": "expirationDate",
           "@type": "xsd:dateTime"
         },
+        "currency": {
+          "@id": "currency",
+          "@type": "xsd:string"
+        },
         "metadata": {
           "@id": "metadata",
+          "@type": "xsd:string"
+        }
+      }
+    },
+    "Iden3PaymentRequestCryptoV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRequestCryptoV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "amount": {
+          "@id": "amount",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "chainId": {
+          "@id": "chainId",
+          "@type": "xsd:string"
+        },
+        "currency": {
+          "@id": "currency",
+          "@type": "xsd:string"
+        },
+        "address": {
+          "@id": "address",
           "@type": "xsd:string"
         }
       }
