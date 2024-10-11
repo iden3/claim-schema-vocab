@@ -15,8 +15,8 @@
           "@id": "nonce",
           "@type": "xsd:nonNegativeInteger"
         },
-        "value": {
-          "@id": "value",
+        "amount": {
+          "@id": "amount",
           "@type": "xsd:nonNegativeInteger"
         },
         "recipient": {
