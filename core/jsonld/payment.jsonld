@@ -42,6 +42,34 @@
         }
       }
     },
+    "Iden3PaymentRailsV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRailsV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nonce": {
+          "@id": "nonce",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "paymentData": {
+          "@id": "paymentData",
+          "@type": "@id",
+          "@context": {
+            "@protected": true,
+            "txId": {
+              "@id": "txId",
+              "@type": "xsd:string"
+            },
+            "chainId": {
+              "@id": "chainId",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    },
     "Iden3PaymentRequestCryptoV1": {
       "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRequestCryptoV1",
       "@context": {
@@ -64,6 +92,26 @@
         "address": {
           "@id": "address",
           "@type": "xsd:string"
+        }
+      }
+    },
+    "Iden3PaymentCryptoV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentCryptoV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "paymentData": {
+          "@id": "paymentData",
+          "@type": "@id",
+          "@context": {
+            "@protected": true,
+            "txId": {
+              "@id": "txId",
+              "@type": "xsd:string"
+            }
+          }
         }
       }
     }
