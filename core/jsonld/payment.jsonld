@@ -70,6 +70,84 @@
         }
       }
     },
+    "Iden3PaymentRailsERC20RequestV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRailsERC20RequestV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nonce": {
+          "@id": "nonce",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "amount": {
+          "@id": "amount",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "tokenAddress": {
+          "@id": "tokenAddress",
+          "@type": "xsd:string"
+        },
+        "features": {
+          "@id": "features",
+          "@container": "@list"
+        },
+        "recipient": {
+          "@id": "recipient",
+          "@type": "xsd:string"
+        },
+        "expirationDate": {
+          "@id": "expirationDate",
+          "@type": "xsd:dateTime"
+        },
+        "currency": {
+          "@id": "currency",
+          "@type": "xsd:string"
+        },
+        "metadata": {
+          "@id": "metadata",
+          "@type": "xsd:string"
+        },
+        "proof": {
+          "@id": "https://w3id.org/security#proof",
+          "@type": "@id",
+          "@container": "@graph"
+        }
+      }
+    },
+    "Iden3PaymentRailsERC20V1": {
+      "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRailsV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "@vocab": "https://schema.iden3.io/core/vocab/payment.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "nonce": {
+          "@id": "nonce",
+          "@type": "xsd:nonNegativeInteger"
+        },
+        "paymentData": {
+          "@id": "paymentData",
+          "@type": "@id",
+          "@context": {
+            "@protected": true,
+            "tokenAddress": {
+              "@id": "tokenAddress",
+              "@type": "xsd:string"
+            },
+            "txId": {
+              "@id": "txId",
+              "@type": "xsd:string"
+            },
+            "chainId": {
+              "@id": "chainId",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    },
     "Iden3PaymentRequestCryptoV1": {
       "@id": "https://schema.iden3.io/core/jsonld/payment.jsonld#Iden3PaymentRequestCryptoV1",
       "@context": {

@@ -6,6 +6,22 @@ recipient of the payment
       "recipient": "0x1234567"
 ```
 
+# tokenAddress
+
+address of erc20 token
+
+```
+      "tokenAddress": "0x1234567"
+```
+
+# features
+
+list of eips supported by erc20 token
+
+```
+      "features": ["EIP-2612"]
+```
+
 # value 
 
 amount to pay 
