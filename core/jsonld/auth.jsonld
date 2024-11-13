@@ -82,6 +82,7 @@
           "@type": "@id",
           "@context": {
             "@protected": true,
+            "sec": "https://w3id.org/security#",
             "root": {
               "@id": "root",
               "@type": "xsd:string"
@@ -105,6 +106,11 @@
             "replacedAtBlock": {
               "@id": "replacedAtBlock",
               "@type": "xsd:string"
+            },
+            "proof": {
+              "@id": "sec:proof",
+              "@type": "@id",
+              "@container": "@graph"
             }
           }
         }
