@@ -14,7 +14,7 @@
     },
     {
       "name":  "verifyingContract",
-      "type:": "address"
+      "type": "address"
     }
   ],
   "Iden3PaymentRailsRequestV1": [
