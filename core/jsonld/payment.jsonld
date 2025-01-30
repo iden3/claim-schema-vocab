@@ -213,10 +213,6 @@
               "@id": "amount",
               "@type": "xsd:nonNegativeInteger"
             },
-            "tokenAddress": {
-              "@id": "tokenAddress",
-              "@type": "xsd:string"
-            },
             "recipient": {
               "@id": "recipient",
               "@type": "xsd:string"

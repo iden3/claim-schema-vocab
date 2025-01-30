@@ -53,6 +53,8 @@ when payment request is expired (ISO string)
 ```
       "expirationDate": "ISO"
 ```
+# paymentReference
+it is a field that represents user in case message is sent directly to issuer through verifier
 
 # proof 
 
