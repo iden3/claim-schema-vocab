@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "AttestationOwnership": {
+            "@id": "https://example.org/attestationOwnership#AttestationOwnership",
+            "@context": {
+                "uid": "https://example.org/attestationOwnership#uid",
+                "schema": "https://example.org/attestationOwnership#schema",
+                "refUID": "https://example.org/attestationOwnership#refUID",
+                "time": {
+                    "@id": "https://example.org/attestationOwnership#time",
+                    "@type": "xsd:dateTime"
+                },
+                "expirationTime": {
+                    "@id": "https://example.org/attestationOwnership#expirationTime",
+                    "@type": "xsd:dateTime"
+                },
+                "revocationTime": {
+                    "@id": "https://example.org/attestationOwnership#revocationTime",
+                    "@type": "xsd:dateTime"
+                },
+                "recipient": {
+                    "@id": "https://example.org/attestationOwnership#recipient",
+                    "@type": "xsd:string"
+                },
+                "attester": {
+                    "@id": "https://example.org/attestationOwnership#attester",
+                    "@type": "xsd:string"
+                },
+                "revocable": {
+                    "@id": "https://example.org/attestationOwnership#revocable",
+                    "@type": "xsd:boolean"
+                },
+                "data": {
+                    "@id": "https://example.org/attestationOwnership#data",
+                    "@type": "xsd:string"
+                }
+            }
+        }
+    }
+}
