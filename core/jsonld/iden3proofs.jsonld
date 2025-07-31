@@ -228,6 +228,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-reverse-sparse-merkle-tree-proof-vocab": "https://schema.iden3.io/core/vocab/Iden3ReverseSparseMerkleTreeProof.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "revocationNonce": {
           "@id": "iden3-reverse-sparse-merkle-tree-proof-vocab:revocationNonce",
           "@type": "xsd:integer"
@@ -251,6 +252,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-comm-revocation-statusV1.0-vocab": "https://schema.iden3.io/core/vocab/Iden3commRevocationStatusV1.0.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "revocationNonce": {
           "@id": "iden3-comm-revocation-statusV1.0-vocab:revocationNonce",
           "@type": "xsd:integer"
@@ -274,6 +276,7 @@
         "id": "@id",
         "type": "@type",
         "iden3-onchain-sparse-merkle-tree-proof-2023-vocab": "https://schema.iden3.io/core/vocab/Iden3OnchainSparseMerkleTreeProof2023.md#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "revocationNonce": {
           "@id": "iden3-onchain-sparse-merkle-tree-proof-2023-vocab:revocationNonce",
           "@type": "xsd:integer"  
