@@ -3,129 +3,105 @@
       "@version": 1.1,
       "@protected": true,
   
-      "SolanaEd25519SPLV1": {
-        "@id": "https://w3id.org/security#SolanaEd25519SPLV1",
+      "SolanaEd25519NativeV1": {
+        "@id": "SolanaEd25519NativeV1",
         "@context": {
-          "@version": 1.1,
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "created": {
-            "@id": "http://purl.org/dc/terms/created",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "domain": {
-            "@id": "https://w3id.org/security/suites/solana-ed25519-spl-2025#domain",
-            "@type": "@json"
+          "@propagate": true,
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "type": {
+            "@id": "type",
+            "@type": "xsd:string"
           },
           "proofPurpose": {
             "@id": "https://w3id.org/security#proofPurpose",
-            "@type": "@vocab",
-            "@context": {
-              "@version": 1.1,
-              "@protected": true,
-              "id": "@id",
-              "type": "@type",
-              "assertionMethod": {
-                "@id": "https://w3id.org/security#assertionMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "authentication": {
-                "@id": "https://w3id.org/security#authenticationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "capabilityInvocation": {
-                "@id": "https://w3id.org/security#capabilityInvocationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "capabilityDelegation": {
-                "@id": "https://w3id.org/security#capabilityDelegationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              }
-            }
+            "@type": "xsd:string"
           },
-          "proofValue": "https://w3id.org/security#proofValue",
+          "proofValue": {
+            "@id": "https://w3id.org/security#proofValue",
+            "@type": "xsd:hexBinary"
+          },
           "signedMessage": {
-            "@id": "https://w3id.org/security/suites/solana-ed25519-spl-2025#signedMessage",
-            "@type": "http://www.w3.org/2001/XMLSchema#hexBinary"
+            "@id": "signedMessage",
+            "@type": "xsd:hexBinary"
+          },
+          "created": {
+            "@id": "created",
+            "@type": "xsd:dateTime"
           },
           "pubKey": {
-            "@id": "https://w3id.org/security#publicKeyBase58",
-            "@type": "http://www.w3.org/2001/XMLSchema#string"
+            "@id": "pubKey",
+            "@type": "xsd:string"
           },
-          "verificationMethod": {
-            "@id": "https://w3id.org/security#verificationMethod",
-            "@type": "@id"
-          },
-          "canonicalizationHash": "https://w3id.org/security/suites/solana-ed25519-spl-2025#canonicalizationHash"
+          "domain": {
+            "@id": "domain",
+            "@context": {
+              "@protected": true,
+              "version": {
+                "@id": "version",
+                "@type": "xsd:string"
+              },
+              "chainId": {
+                "@id": "chainId",
+                "@type": "xsd:string"
+              },
+              "verifyingContract": {
+                "@id": "verifyingContract",
+                "@type": "xsd:string"
+              }
+            }
+        }
         }
       },
   
-      "SolanaEd25519NativeV1": {
-        "@id": "https://w3id.org/security#SolanaEd25519NativeV1",
+      "SolanaEd25519SPLV1": {
+        "@id": "SolanaEd25519SPLV1",
         "@context": {
-          "@version": 1.1,
           "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "created": {
-            "@id": "http://purl.org/dc/terms/created",
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
-          },
-          "domain": {
-            "@id": "https://w3id.org/security/suites/solana-ed25519-native-2025#domain",
-            "@type": "@json"
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "type": {
+            "@id": "type",
+            "@type": "xsd:string"
           },
           "proofPurpose": {
             "@id": "https://w3id.org/security#proofPurpose",
-            "@type": "@vocab",
-            "@context": {
-              "@version": 1.1,
-              "@protected": true,
-              "id": "@id",
-              "type": "@type",
-              "assertionMethod": {
-                "@id": "https://w3id.org/security#assertionMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "authentication": {
-                "@id": "https://w3id.org/security#authenticationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "capabilityInvocation": {
-                "@id": "https://w3id.org/security#capabilityInvocationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              },
-              "capabilityDelegation": {
-                "@id": "https://w3id.org/security#capabilityDelegationMethod",
-                "@type": "@id",
-                "@container": "@set"
-              }
-            }
+            "@type": "xsd:string"
           },
-          "proofValue": "https://w3id.org/security#proofValue",
+          "proofValue": {
+            "@id": "https://w3id.org/security#proofValue",
+            "@type": "xsd:hexBinary"
+          },
           "signedMessage": {
-            "@id": "https://w3id.org/security/suites/solana-ed25519-native-2025#signedMessage",
-            "@type": "http://www.w3.org/2001/XMLSchema#hexBinary"
+            "@id": "signedMessage",
+            "@type": "xsd:hexBinary"
+          },
+          "created": {
+            "@id": "created",
+            "@type": "xsd:dateTime"
           },
           "pubKey": {
-            "@id": "https://w3id.org/security#publicKeyBase58",
-            "@type": "http://www.w3.org/2001/XMLSchema#string"
+            "@id": "pubKey",
+            "@type": "xsd:string"
           },
-          "verificationMethod": {
-            "@id": "https://w3id.org/security#verificationMethod",
-            "@type": "@id"
-          },
-          "canonicalizationHash": "https://w3id.org/security/suites/solana-ed25519-native-2025#canonicalizationHash"
+          "domain": {
+            "@id": "domain",
+            "@context": {
+              "@protected": true,
+              "version": {
+                "@id": "version",
+                "@type": "xsd:string"
+              },
+              "chainId": {
+                "@id": "chainId",
+                "@type": "xsd:string"
+              },
+              "verifyingContract": {
+                "@id": "verifyingContract",
+                "@type": "xsd:string"
+              }
+            }
         }
       }
     }
   }
-  
+}
