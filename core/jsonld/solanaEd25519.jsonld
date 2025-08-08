@@ -19,11 +19,11 @@
           },
           "proofValue": {
             "@id": "https://w3id.org/security#proofValue",
-            "@type": "xsd:hexBinary"
+            "@type": "https://w3id.org/security#multibase"
           },
-          "signedMessage": {
-            "@id": "signedMessage",
-            "@type": "xsd:hexBinary"
+          "message": {
+            "@id": "message",
+            "@type": "string"
           },
           "created": {
             "@id": "created",
@@ -31,7 +31,7 @@
           },
           "pubKey": {
             "@id": "pubKey",
-            "@type": "xsd:string"
+            "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
             "@id": "domain",
@@ -69,11 +69,11 @@
           },
           "proofValue": {
             "@id": "https://w3id.org/security#proofValue",
-            "@type": "xsd:hexBinary"
+            "@type": "https://w3id.org/security#multibase"
           },
-          "signedMessage": {
-            "@id": "signedMessage",
-            "@type": "xsd:hexBinary"
+          "message": {
+            "@id": "message",
+            "@type": "xsd:string"
           },
           "created": {
             "@id": "created",
@@ -81,7 +81,7 @@
           },
           "pubKey": {
             "@id": "pubKey",
-            "@type": "xsd:string"
+            "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
             "@id": "domain",
