@@ -29,8 +29,8 @@
             "@id": "created",
             "@type": "xsd:dateTime"
           },
-          "pubKey": {
-            "@id": "pubKey",
+          "publicKey": {
+            "@id": "publicKey",
             "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
@@ -79,8 +79,8 @@
             "@id": "created",
             "@type": "xsd:dateTime"
           },
-          "pubKey": {
-            "@id": "pubKey",
+          "publicKey": {
+            "@id": "publicKey",
             "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
