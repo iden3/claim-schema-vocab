@@ -21,17 +21,13 @@
             "@id": "https://w3id.org/security#proofValue",
             "@type": "https://w3id.org/security#multibase"
           },
-          "message": {
-            "@id": "message",
-            "@type": "string"
+          "verificationMethod": {
+            "@id": "https://w3id.org/security#verificationMethod",
+            "@type": "@id"
           },
           "created": {
             "@id": "created",
             "@type": "xsd:dateTime"
-          },
-          "publicKey": {
-            "@id": "publicKey",
-            "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
             "@id": "domain",
@@ -71,17 +67,13 @@
             "@id": "https://w3id.org/security#proofValue",
             "@type": "https://w3id.org/security#multibase"
           },
-          "message": {
-            "@id": "message",
-            "@type": "xsd:string"
+          "verificationMethod": {
+            "@id": "https://w3id.org/security#verificationMethod",
+            "@type": "@id"
           },
           "created": {
             "@id": "created",
             "@type": "xsd:dateTime"
-          },
-          "publicKey": {
-            "@id": "publicKey",
-            "@type": "https://w3id.org/security#multibase"
           },
           "domain": {
             "@id": "domain",
