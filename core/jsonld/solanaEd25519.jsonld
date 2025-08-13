@@ -1,97 +1,88 @@
 {
-    "@context": {
-      "@version": 1.1,
-      "@protected": true,
-  
-      "SolanaEd25519NativeV1": {
-        "@id": "SolanaEd25519NativeV1",
-        "@context": {
-          "@protected": true,
-          "@propagate": true,
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "type": {
-            "@id": "type",
-            "@type": "xsd:string"
-          },
-          "proofPurpose": {
-            "@id": "https://w3id.org/security#proofPurpose",
-            "@type": "xsd:string"
-          },
-          "proofValue": {
-            "@id": "https://w3id.org/security#proofValue",
-            "@type": "https://w3id.org/security#multibase"
-          },
-          "verificationMethod": {
-            "@id": "https://w3id.org/security#verificationMethod",
-            "@type": "@id"
-          },
-          "created": {
-            "@id": "created",
-            "@type": "xsd:dateTime"
-          },
-          "domain": {
-            "@id": "domain",
-            "@context": {
-              "@protected": true,
-              "version": {
-                "@id": "version",
-                "@type": "xsd:string"
-              },
-              "chainId": {
-                "@id": "chainId",
-                "@type": "xsd:string"
-              },
-              "verifyingContract": {
-                "@id": "verifyingContract",
-                "@type": "xsd:string"
-              }
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "SolanaEd25519NativeV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/solanaEd25519.jsonld#SolanaEd25519NativeV1",
+      "@context": {
+        "@protected": true,
+        "@propagate": true,
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "proofPurpose": {
+          "@id": "https://w3id.org/security#proofPurpose",
+          "@type": "xsd:string"
+        },
+        "proofValue": {
+          "@id": "https://w3id.org/security#proofValue",
+          "@type": "https://w3id.org/security#multibase"
+        },
+        "verificationMethod": {
+          "@id": "https://w3id.org/security#verificationMethod",
+          "@type": "@id"
+        },
+        "created": {
+          "@id": "created",
+          "@type": "xsd:dateTime"
+        },
+        "domain": {
+          "@id": "domain",
+          "@context": {
+            "@protected": true,
+            "version": {
+              "@id": "version",
+              "@type": "xsd:string"
+            },
+            "chainId": {
+              "@id": "chainId",
+              "@type": "xsd:string"
+            },
+            "verifyingContract": {
+              "@id": "verifyingContract",
+              "@type": "xsd:string"
             }
+          }
         }
-        }
-      },
-  
-      "SolanaEd25519SPLV1": {
-        "@id": "SolanaEd25519SPLV1",
-        "@context": {
-          "@protected": true,
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "type": {
-            "@id": "type",
-            "@type": "xsd:string"
-          },
-          "proofPurpose": {
-            "@id": "https://w3id.org/security#proofPurpose",
-            "@type": "xsd:string"
-          },
-          "proofValue": {
-            "@id": "https://w3id.org/security#proofValue",
-            "@type": "https://w3id.org/security#multibase"
-          },
-          "verificationMethod": {
-            "@id": "https://w3id.org/security#verificationMethod",
-            "@type": "@id"
-          },
-          "created": {
-            "@id": "created",
-            "@type": "xsd:dateTime"
-          },
-          "domain": {
-            "@id": "domain",
-            "@context": {
-              "@protected": true,
-              "version": {
-                "@id": "version",
-                "@type": "xsd:string"
-              },
-              "chainId": {
-                "@id": "chainId",
-                "@type": "xsd:string"
-              },
-              "verifyingContract": {
-                "@id": "verifyingContract",
-                "@type": "xsd:string"
-              }
+      }
+    },
+    "SolanaEd25519SPLV1": {
+      "@id": "https://schema.iden3.io/core/jsonld/solanaEd25519.jsonld#SolanaEd25519SPLV1",
+      "@context": {
+        "@protected": true,
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "proofPurpose": {
+          "@id": "https://w3id.org/security#proofPurpose",
+          "@type": "xsd:string"
+        },
+        "proofValue": {
+          "@id": "https://w3id.org/security#proofValue",
+          "@type": "https://w3id.org/security#multibase"
+        },
+        "verificationMethod": {
+          "@id": "https://w3id.org/security#verificationMethod",
+          "@type": "@id"
+        },
+        "created": {
+          "@id": "created",
+          "@type": "xsd:dateTime"
+        },
+        "domain": {
+          "@id": "domain",
+          "@context": {
+            "@protected": true,
+            "version": {
+              "@id": "version",
+              "@type": "xsd:string"
+            },
+            "chainId": {
+              "@id": "chainId",
+              "@type": "xsd:string"
+            },
+            "verifyingContract": {
+              "@id": "verifyingContract",
+              "@type": "xsd:string"
             }
+          }
         }
       }
     }
