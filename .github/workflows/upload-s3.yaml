@@ -2,7 +2,7 @@ name: Upload objects to S3
 
 on:
   push:
-    branches: [ main, configure-upload ]
+    branches: [ main ]
     paths:
       - 'core/**'
       - '.github/workflows/upload-s3.yaml'
@@ -20,10 +20,10 @@ env:
   DIRECTORIES: "./core"
 
 jobs:
-  build-and-deploy:
+  upload:
     runs-on: ubuntu-latest
     environment:
-      name: main # ${{ github.ref_name }}
+      name: ${{ github.ref_name }}
     timeout-minutes: 15
 
     steps:
