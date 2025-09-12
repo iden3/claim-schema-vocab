@@ -1,0 +1,51 @@
+name: Upload objects to S3
+
+on:
+  push:
+    branches: [ main, configure-upload ]
+    paths:
+      - 'core/**'
+      - '.github/workflows/upload-s3.yaml'
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: upload-s3-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # Multiple directories can be specified separated by spaces
+  DIRECTORIES: "./core"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: main # ${{ github.ref_name }}
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Sync folders → S3
+        run: |
+          for dir in ${{ env.DIRECTORIES }}; do
+            aws s3 sync "$dir" "s3://${{ secrets.S3_BUCKET }}/$(basename $dir)" \
+              --delete \
+              --only-show-errors
+          done
+
+      - name: Invalidate CloudFront
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}" \
+            --paths "/*"
