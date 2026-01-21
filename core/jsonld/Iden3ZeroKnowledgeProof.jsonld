@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "Iden3ZeroKnowledgeProof": {
+      "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/cbf810ea5620054be44efeb29e5bd41e030f7815/core/jsonld/Iden3ZeroKnowledgeProof.jsonld#Iden3ZeroKnowledgeProof",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "@propagate": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@vocab": "https://schema.iden3.io/core/vocab/Iden3ZeroKnowledgeProof.md#",
+        "circuit_id": {
+          "@id": "circuit_id",
+          "@type": "xsd:string"
+        },
+        "protocol": {
+          "@id": "protocol",
+          "@type": "xsd:string"
+        },
+        "curve": {
+          "@id": "curve",
+          "@type": "xsd:string"
+        },
+        "pub_signals": {
+          "@id": "pub_signals",
+          "@container": "@list"
+        },
+        "pi_a": {
+          "@id": "pi_a",
+          "@container": "@list"
+        },
+        "pi_b": {
+          "@id": "pi_b",
+          "@container": "@list"
+        },
+        "pi_c": {
+          "@id": "pi_c",
+          "@container": "@list"
+        }
+      }
+    }
+  }
+}
