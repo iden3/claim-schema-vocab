@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "title": "Attestation Ownership",
+    "description": "Schema for attestation ownership",
+    "properties": {
+        "uid": {
+            "type": "string",
+            "description": "A unique identifier of the attestation."
+        },
+        "schema": {
+            "type": "string",
+            "description": "A unique identifier of the schema."
+        },
+        "refUID": {
+            "type": "string",
+            "description": "The UID of the related attestation."
+        },
+        "time": {
+            "type": "integer",
+            "description": "The time when the attestation was created."
+        },
+        "expirationTime": {
+            "type": "integer",
+            "description": "The time when the attestation expires."
+        },
+        "revocationTime": {
+            "type": "integer",
+            "description": "The time when the attestation was revoked."
+        },
+        "recipient": {
+            "type": "string",
+            "description": "The recipient of the attestation."
+        },
+        "attester": {
+            "type": "string",
+            "description": "The attester/sender of the attestation."
+        },
+        "revocable": {
+            "type": "boolean",
+            "description": "Whether the attestation is revocable."
+        },
+        "data": {
+            "type": "string",
+            "description": "Custom attestation data."
+        }
+    },
+    "required": [
+        "uid",
+        "schema",
+        "time",
+        "recipient",
+        "attester",
+        "revocable"
+    ]
+}

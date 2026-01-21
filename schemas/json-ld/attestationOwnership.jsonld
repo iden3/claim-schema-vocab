@@ -1,0 +1,44 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "AttestationOwnership": {
+            "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#AttestationOwnership",
+            "@context": {
+                "uid": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#uid",
+                "schema": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#schema",
+                "refUID": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#refUID",
+                "time": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#time",
+                    "@type": "xsd:dateTime"
+                },
+                "expirationTime": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#expirationTime",
+                    "@type": "xsd:dateTime"
+                },
+                "revocationTime": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#revocationTime",
+                    "@type": "xsd:dateTime"
+                },
+                "recipient": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#recipient",
+                    "@type": "xsd:string"
+                },
+                "attester": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#attester",
+                    "@type": "xsd:string"
+                },
+                "revocable": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#revocable",
+                    "@type": "xsd:boolean"
+                },
+                "data": {
+                    "@id": "https://raw.githubusercontent.com/iden3/claim-schema-vocab/refs/heads/feat/attestation-example/schemas/json-ld/attestationOwnership#data",
+                    "@type": "xsd:string"
+                }
+            }
+        }
+    }
+}
